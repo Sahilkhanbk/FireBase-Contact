@@ -71,6 +71,3 @@ const AddContact = ({ onClose, isOpen, isUpdate, contact }) => {
 };
 
 export default AddContact
-
-
-
