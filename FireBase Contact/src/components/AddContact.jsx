@@ -45,7 +45,6 @@ const AddContact = ({ onClose, isOpen, isUpdate, contact }) => {
                         isUpdate ? updateContact(val, contact.id) : addContact(val)
                     }}
                 >
-
                     <Form className="flex flex-col gap-4">
                         <div className="flex flex-col gap-1">
                             <label htmlFor="name">Name</label>
@@ -61,10 +60,8 @@ const AddContact = ({ onClose, isOpen, isUpdate, contact }) => {
                                     { <ErrorMessage name="email" /> }
                                 </div> */}
                         </div>
-
                         <button className="self-end border bg-orange px-3 py-1.5">
                             {isUpdate ? "Edit" : "Add"} </button>
-
                     </Form>
                 </Formik>
             </Model>
@@ -74,5 +71,6 @@ const AddContact = ({ onClose, isOpen, isUpdate, contact }) => {
 };
 
 export default AddContact
+
 
 
