@@ -29,7 +29,6 @@ const AddContact = ({ onClose, isOpen, isUpdate, contact }) => {
         }
     };
 
-
     return (
         <div>
             <Model onClose={onClose} isOpen={isOpen} >
@@ -75,4 +74,5 @@ const AddContact = ({ onClose, isOpen, isUpdate, contact }) => {
 };
 
 export default AddContact
+
 
