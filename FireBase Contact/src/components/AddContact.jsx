@@ -18,7 +18,6 @@ const AddContact = ({ onClose, isOpen, isUpdate, contact }) => {
         }
     };
 
-
     const updateContact = async (contact, id) => {
         try {
             const contactRef = doc(db, "contacts", id);
@@ -76,3 +75,4 @@ const AddContact = ({ onClose, isOpen, isUpdate, contact }) => {
 };
 
 export default AddContact
+
